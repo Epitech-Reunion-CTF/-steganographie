@@ -11,7 +11,7 @@
 		<button type="submit">Vérifier</button>
 	</form>
 	<?php
-        $verif = "85691275390";
+        $verif = "85023724";
 		if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			$numero = $_POST['numero'];
 			if ($verif === $numero) {
